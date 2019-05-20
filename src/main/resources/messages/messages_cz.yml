@@ -78,7 +78,7 @@ on_join_validation:
     country_banned: 'Vaše země je na tomto serveru zakázána'
     not_owner_error: 'Nejsi majitelem tohoto účtu, prosím zvol si jiné jméno!'
     invalid_name_case: 'Měl by jsi použít jméno %valid, ne jméno %invalid.'
-    # TODO quick_command: 'You used a command too fast! Please, join the server again and wait more before using any command.'
+    quick_command: 'Použil jsi přílíž mnoho příkazů rychle za sebou, znovu se připoj a měl delší rozestup mezi příkazy.'
 
 # Email
 email:
@@ -89,10 +89,10 @@ email:
     old_email_invalid: '[AuthMe] Starý email je chybně zadán!'
     invalid: '[AuthMe] Nesprávný email'
     added: '[AuthMe] Email přidán!'
-    # TODO add_not_allowed: '&cAdding email was not allowed'
+    add_not_allowed: '&cPřidávání emailů nené povolené'
     request_confirmation: '[AuthMe] Potvrď prosím svůj email!'
     changed: '[AuthMe] Email změněn!'
-    # TODO change_not_allowed: '&cChanging email was not allowed'
+    change_not_allowed: '&cZměna emailů není povolená'
     email_show: '&2Váš aktuální email je: &f%email'
     no_email_for_account: '&2K tomuto účtu nemáte přidanou žádnou emailovou adresu.'
     already_used: '&4Tato emailová adresa je již používána'
@@ -118,15 +118,15 @@ captcha:
     usage_captcha: '&cPoužij: /captcha %captcha_code'
     wrong_captcha: '&cŠpatné opsana Captcha, pouzij prosim: /captcha %captcha_code'
     valid_captcha: '&cZadaná captcha je v pořádku!'
-    # TODO captcha_for_registration: 'To register you have to solve a captcha first, please use the command: /captcha %captcha_code'
-    # TODO register_captcha_valid: '&2Valid captcha! You may now register with /register'
+    captcha_for_registration: 'Před registrací musíš vyplnit catcha pomocí příkazu: /captcha %captcha_code'
+    register_captcha_valid: '&2Captcha je ověřená nyní použíj příkaz: /register'
 
 # Verification code
 verification:
     # TODO code_required: '&3This command is sensitive and requires an email verification! Check your inbox and follow the email''s instructions.'
-    # TODO command_usage: '&cUsage: /verification <code>'
-    # TODO incorrect_code: '&cIncorrect code, please type "/verification <code>" into the chat, using the code you received by email'
-    # TODO success: '&2Your identity has been verified! You can now execute all commands within the current session!'
+    command_usage: '&cPoužítí: /verification <kód>'
+    incorrect_code: '&cKód je špatně, porsím použíj: "/verification <kód>" do chatu, kód najdeš v emailu.'
+    success: '&2Tvoje identita byla ověřená! nyní můžeš použít všechny příkazy v téhle relaci!'
     # TODO already_verified: '&2You can already execute every sensitive command within the current session!'
     # TODO code_expired: '&3Your code has expired! Execute another sensitive command to get a new code!'
     # TODO email_needed: '&3To verify your identity you need to link an email address with your account!!'
